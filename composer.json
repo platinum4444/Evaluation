@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "giggsey/libphonenumber-for-php": "^8.13"
+    }
+}

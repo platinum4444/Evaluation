@@ -1,0 +1,122 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 4px solid #00A82D;
+}
+
+.header__name-company {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-size: 40px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__img {
+    width: 60px;
+   margin-right: 15px; 
+}
+
+.nav__name-project {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #00A82D;
+}
+
+.big-letter {
+    font-size: 60px;
+    margin-left: 7px; 
+    font-family: 'EB Garamond', serif;
+}
+
+.links {
+    display: flex;
+    margin-top: 30px;
+}
+
+.links > * {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    color: #8D8D8D;
+    padding: 7px 20px;
+}
+
+.links__login {
+    border-right: 3px solid #00A82D;
+}
+
+@media (min-width: 992px) {
+
+    .big-letter {
+        font-size: 25px;
+    }
+
+    .header__name-company {
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    .nav__name-project {
+        font-size: 20px;
+    }
+    
+    .nav {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 5%;
+
+    }
+
+    .links {
+        margin-top: 0px;
+    }
+
+    .links > * {
+        font-size: 13px;
+    }
+
+    .nav__img {
+        width: 27.5px; 
+    }
+
+    .links__login {
+        border-right: 2.5px solid #00A82D;
+    }
+
+}
+  

@@ -1,0 +1,513 @@
+.product {
+    padding: 0vh 0vw;
+    background-color: #CFCFCF;
+}
+
+.product__title {
+    font-size: 60px;
+    width: 85%;
+    margin: auto;
+    padding-top: 6vh;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.product__subtitle {
+    width: 80%;
+    margin: 50px auto;
+    padding: 25px 0px;
+    text-align: center;
+    border-top: 6px solid #00A82D;
+    border-bottom: 6px solid #00A82D;
+    font-weight: lighter;
+    font-family: 'EB Garamond', serif;
+    font-size: 45px;
+}
+
+.product__description {
+    width: 80%;
+    margin: auto;
+    font-size: 22.5px;
+}
+
+.benefits {
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.benefits__title {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    font-size: 34px;
+}
+
+.benefits__title-img {
+    min-width: 60px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+.benefits__list-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 57.5%;
+    width: 100%;
+}
+
+.benefits__book {
+    order: 1;
+}
+
+.benefits__list {
+    min-width: 93%;
+    list-style: none;
+    margin-left: 50px;
+    order: 2;
+    margin-bottom: 4vh;
+}
+
+.benefits__item-list {
+    font-size: 35px;
+    width: 90%;
+    margin: 55px auto;
+}
+   
+
+.benefits__info {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.download-preview-button {
+    display: block;
+    margin: 40px auto;
+    position: relative;
+    width: 76.5%;
+    min-height: 70px;
+    line-height: 45px;
+    background-color: #00A82D;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 35px;
+}
+
+.benefits__right {
+    background-color: white;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.06);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.06);
+    border-radius: 10px;
+}
+
+.form-wrapper {
+    min-height: calc(auto + 10vh);
+
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form__privacy {
+    font-size: 27px;
+    margin: 30px;
+}
+
+.download-preview-msg {
+    display: none;
+}
+
+.form-title {
+    font-size: 40px;
+    color: #00A82D;
+}
+
+.form-description {
+    font-size: 31px;
+    margin: 30px auto;
+}
+
+.input {
+    display: block;
+    padding: 39px;
+    font-size: 34px;
+    width: 100%;
+    margin: 8px 0px;
+    border: 1px solid darkgray;
+}
+
+
+.benefits__item-list-title {
+    letter-spacing: 1px;
+    color: #00A82D;
+}
+
+.benefits__book {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.benefits__book-img {
+    width: 300px;
+}
+
+.stats {
+    margin-top: 8vh;
+}
+
+.stats__title {
+    color: #00A82D;
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.stats__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .stats__item {
+    text-align: center;
+    margin: 4vh;
+  }
+  
+  .stats__item-icon {
+      width: 120px;
+    }
+    
+.stats__item-number {
+    font-size: 50px;
+    color: #00A82D;
+    font-weight: bolder;
+    margin-top: 40px;
+  }
+  
+  .stats__item-label {
+    font-size: 32px;
+  }
+  
+  .contact {
+    margin-top: 8vh;
+    background-color: #323232;
+    border-left: 2vw solid #34AE55;
+    border-right: 2vw solid #34AE55;
+  }
+  
+  .contact__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh 0px;
+    width: 95%;
+    margin: auto;
+  }
+  
+  .contact__item-icon {
+    width: 100px;
+  }
+
+  .contact__icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+  
+
+  .contact__item-title {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .contact__item-description {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 9.5px;
+    padding: 40px;
+  }
+  
+  
+
+@media (min-width: 992px) {
+
+    .benefits__list-wrapper {
+        width: 57.5%;
+    }
+
+    .product {
+        padding: 8vh 0px;
+    }
+    
+    .product__title {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    
+    .product__subtitle {
+        font-size: 25px;
+    }
+
+    .product__description {
+        font-size: 16px;
+    }
+
+    .benefits {
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .benefits__right {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 35%;
+        z-index: 9;
+    }
+
+    .download-preview-button {
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        min-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .download-preview-msg {
+        display: block;
+        background-color: #E6C81A;
+        color: white;
+        width: 40vw;
+        z-index: 999;
+        position: absolute;
+        top: 0%;
+        right: 110%;
+        padding: 6px 0px;
+    }
+
+    .download-preview-msg::before {
+        content: "";
+        background-color: #E6C81A;
+        clip-path: polygon(75% 0, 100% 0%, 100% 100%, 0% 100%);
+        height: 33.5px;
+        display: block;
+        width: 3vw;
+        position: absolute;
+        top: 0px;
+        left: -2.9vw;
+    }
+
+    .download-preview-msg::after {
+        content: "";
+        background-color: #B89F08;
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 60% 100%, 86% 50%, 58% 0);
+        height: 33.5px;
+        display: block;
+        width: 8vw;
+        position: absolute;
+        top: 0px;
+        right: -2.7vw;
+    }
+
+    .triangle {
+        height: 33.5px;
+        display: block;
+        width: 8vw;
+        position: absolute;
+        top: 0px;
+        clip-path: polygon(58% 0, 85% 50%, 60% 100%, 0 100%, 0 56%, 0 0);
+        right: -2.9vw;
+        background-color: #E6C81A; 
+        z-index: 99;
+    }
+
+    .form__privacy {
+        font-size: 12px;
+    }
+
+    .input {
+        display: block;
+        padding: 9px;
+        font-size: 14px;
+        width: 100%;
+        margin: 8px 0px;
+        border: 1px solid darkgray;
+    }
+
+    .two-inputs {
+        display: flex;
+        gap: 10px;
+    }
+
+    .two-inputs :nth-child(1) {
+
+    }
+
+    .download-button-wrapper {
+        position: relative;
+    }
+
+    .benefits__left {
+        width: 65%;
+    }
+
+    .benefits__title {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+    
+    .benefits__title-img {
+        min-width: 40px;
+    }
+
+    .benefits__item-list {
+        width: 100%;
+        margin: 35px 0px;
+        font-size: 16px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .form-wrapper {
+        margin: auto;
+    }
+    
+    .form-description {
+        font-size: 12.5px;
+
+        margin: 10px 0px;
+    }
+
+    .form__privacy {
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .benefits__list-wrapper {
+        flex-direction: row;
+    }
+    
+    .benefits__book {
+        order: 2;
+        display: block;
+    }
+    
+    .benefits__list {
+        order: 1;
+    }
+
+    .benefits__book-img {
+        width: 200px;
+    }
+    
+    .stats__data {
+        flex-direction: row;
+    }
+
+    .stats__title {
+        font-size: 40px;
+        margin-top: 15vh;
+    }
+
+    .contact__icon-wrapper {
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .contact__item-icon {
+        width: 40px;
+      }
+
+      .contact__item-title {
+        margin: 0px;
+      }
+
+    .contact__item-description {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .stats__data {
+        margin-top: 5vh;
+    }
+
+    .stats__item-icon {
+        width: 40px;
+      }
+      
+    .stats__item-number {
+      font-size: 35px;
+      color: #00A82D;
+      margin-top: 35px;
+    }
+    
+    .stats__item-label {
+        width: 70%;
+        margin: auto;
+      font-size: 23px;
+
+    }
+
+    .contact__item-title {
+        font-size: 27.5px;
+        font-weight: lighter;
+      }
+
+    .footer {
+        text-align: center;
+        font-size: 13px;
+        padding: 17.5px;
+    }
+
+    .contact__item {
+        width: 25%;
+        align-items: flex-start;
+    }
+
+    .contact__item-description {
+        width: 60%;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
